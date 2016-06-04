@@ -1,0 +1,11 @@
+{
+    "require": {
+        "slim/slim": "2.*",
+        "illuminate/database": "*",
+        "tuupola/slim-jwt-auth": "^2.3"
+    },
+    "autoload": {
+        "files": [ "app/config.php" ],
+        "classmap": [ "app/models" ]
+    }
+}
